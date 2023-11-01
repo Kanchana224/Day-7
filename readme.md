@@ -1,0 +1,1 @@
+Task of day 7 was completed.
