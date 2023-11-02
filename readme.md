@@ -1,1 +1,1 @@
-Task of day 7 was completed.
+MRF (MAP ,REDUCE ,FILTER) SESSION.
