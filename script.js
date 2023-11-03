@@ -60,5 +60,7 @@ request4.send();
 request4.onload=function(){
     var data4=request4.response
     var result4=JSON.parse(data4)
-    var output4=result4.filter((element)=>console.log(element.currencies.USD))       
+    var output4=result4.filter((element)=>element.currencies && element.currencies.USD)
+    output4.forEach((element)=>console.log(element.name.common))
+
 }
