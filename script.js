@@ -33,7 +33,7 @@ request2.send();
 request2.onload=function(){
     var data2=request2.response
     var result2=JSON.parse(data2)
-    var total2=result2.forEach((elemen)=>console.log(`names:${elemen.name.common},flag:${elemen.flag.png},capital:${elemen.capital}`))
+    var total2=result2.forEach((elemen)=>console.log(`names:${elemen.name.common},flag:${elemen.flag},capital:${elemen.capital}`))
 
 }
 
